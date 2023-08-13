@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasbih Count</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="./TSL-9MB71_AV.jpg.webp" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <h1
+        class="font-extrabold uppercase text-center text-transparent text-6xl md:text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+        Digital Tasbih</h1>
+
+    <main>
+        <section class="block lg:flex gap-x-10 justify-center mt-40 max-w-7xl mx-auto">
+
+            <!-- subhanallah -->
+            <div class="border border-[white] border-solid rounded-3xl shadow-2xl p-10">
+                <h1 class="font-extrabold uppercase text-2xl text-center">Subhanallah</h1>
+                <h1 id="subhanallah" class="font-extrabold uppercase text-center mb-4 text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                    0 </h1>
+                <div class="block md:flex gap-3 text-center justify-center">
+                    <button
+                    class="btn-count-subhanallah bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">+</button>
+                <button 
+                    class="btn-reset-subhanallah bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">-</button>
+                </div>
+            </div>
+
+            <!-- alhamdulillah -->
+            <div class="border border-[white] border-solid rounded-3xl shadow-2xl p-10">
+                <h1 class="font-extrabold uppercase text-2xl text-center">Alhamdulillah</h1>
+                <h1 id="alhamdulillah"
+                    class="font-extrabold uppercase text-center mb-4 text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                    0 </h1>
+                <div class="block md:flex gap-3 text-center justify-center">
+                <button
+                    class="btn-count-alhamdulillah bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">+</button>
+                <button
+                    class="btn-reset-alhamdulillah bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">-</button>
+                </div>
+            </div>
+
+            <!-- Allahhuakbar -->
+            <div class="border border-[white] border-solid rounded-3xl shadow-2xl p-10">
+                <h1 class="font-extrabold uppercase text-2xl text-center">Allahhuakbar</h1>
+                <h1 id="allahhuakbar"
+                    class="font-extrabold uppercase text-center mb-4 text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                    0 </h1>
+                <div class="block md:flex gap-3 text-center justify-center">
+                <button
+                    class="btn-count-allahhuakbar bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">+</button>
+                <button
+                    class="btn-reset-allahhuakbar bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">-</button>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="flex justify-center mt-10">
+            <button class="btn btn-outline btn-accent p-5" type="reset">Reset</button>
+        </section>
+
+    </main>
+
+<script src="./script.js"></script>
+
+</body>
+
+</html>
